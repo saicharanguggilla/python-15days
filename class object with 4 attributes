@@ -1,0 +1,34 @@
+CONTURY="INDIA"
+class ACE:
+    college="ACE"
+    def give_details(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1 name : ",self.name)
+        print("2 Marks : ",self.tot)
+        print("3 college : ",ACE.college)
+        print("4 CONTURY : ", )
+class Bvrit:
+    college="Bvrit"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1 name : ",self.name)
+        print("2 Marks : ",self.tot)
+        print("3 college : ",Bvrit.college)
+        print("4 CONTURY : ", )
+
+a=ACE()
+a2=ACE()
+b=Bvrit()
+b2=Bvrit()
+a.give_details(20,30,40,"sai")
+a2.give_details(60,70,80,"hello")
+b.set_dim(10,20,30,"rama")
+b2.set_dim(50,60,70,"seta")
+a.display()
+a2.display()
+b.display()
+b2.display()
