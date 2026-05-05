@@ -1,0 +1,10 @@
+maths=["raj",ashok,sai,shiva,rama]
+social=[anu,ashu,sam,ram,bob]
+computer=[ram,rama,sam,suresh,ashok]
+m=set(marks)
+s=set(social)
+c=set(computer)
+print("time subjects: ", list(m&S&C))
+x=(m&c)|(c&s)|(s&m)
+print(x)
+print("Two subjects: ",list(x-(m&c&s))
